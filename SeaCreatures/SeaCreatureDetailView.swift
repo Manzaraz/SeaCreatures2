@@ -38,6 +38,7 @@ struct SeaCreatureDetailView: View {
                         endVerticalRotation = value.translation.height
                     })
             )
+            
     }
 }
 
