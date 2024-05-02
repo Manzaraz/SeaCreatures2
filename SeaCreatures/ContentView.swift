@@ -10,6 +10,7 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
+    @State private var selectedCreature: SeaCreature?
     
     private var seaCreatures = [
             SeaCreature(name: "Clam", nodelName: "ClamScene"),
@@ -19,13 +20,20 @@ struct ContentView: View {
     ]
     
     var body: some View {
-        VStack {
-            Model3D(named: "SlugScene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+        NavigationSplitView {
+            List(seaCreatures) { creature in
+                Button {
+                    selectedCreature = creature
+                } label: {
+                    Text(creature.name)
+                }
 
-            Text("Hello, world!")
+            }
+            .navigationTitle("Sea Creatures")
+        } detail: {
+            
         }
-        .padding()
+
     }
 }
 
