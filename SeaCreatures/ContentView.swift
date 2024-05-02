@@ -10,6 +10,14 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
+    
+    private var seaCreatures = [
+            SeaCreature(name: "Clam", nodelName: "ClamScene"),
+            SeaCreature(name: "Fish", nodelName: "FishScene"),
+            SeaCreature(name: "Slug", nodelName: "SlugScene"),
+            SeaCreature(name: "Starfish", nodelName: "StarfishScene")
+    ]
+    
     var body: some View {
         VStack {
             Model3D(named: "SlugScene", bundle: realityKitContentBundle)

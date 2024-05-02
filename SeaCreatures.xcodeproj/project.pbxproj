@@ -12,6 +12,7 @@
 		61F135182BE43171005C2C77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F135172BE43171005C2C77 /* ContentView.swift */; };
 		61F1351A2BE43173005C2C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F135192BE43173005C2C77 /* Assets.xcassets */; };
 		61F1351D2BE43173005C2C77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F1351C2BE43173005C2C77 /* Preview Assets.xcassets */; };
+		61F135252BE434EE005C2C77 /* SeaCreature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F135242BE434EE005C2C77 /* SeaCreature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		61F135192BE43173005C2C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61F1351C2BE43173005C2C77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61F1351E2BE43173005C2C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F135242BE434EE005C2C77 /* SeaCreature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				61F135152BE43171005C2C77 /* SeaCreaturesApp.swift */,
 				61F135172BE43171005C2C77 /* ContentView.swift */,
+				61F135242BE434EE005C2C77 /* SeaCreature.swift */,
 				61F135192BE43173005C2C77 /* Assets.xcassets */,
 				61F1351E2BE43173005C2C77 /* Info.plist */,
 				61F1351B2BE43173005C2C77 /* Preview Content */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61F135182BE43171005C2C77 /* ContentView.swift in Sources */,
+				61F135252BE434EE005C2C77 /* SeaCreature.swift in Sources */,
 				61F135162BE43171005C2C77 /* SeaCreaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
