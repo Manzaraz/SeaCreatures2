@@ -1,7 +1,11 @@
 {
   "advancedEditorSelectedIdentifier" : "ProjectBrowser",
   "openSceneRelativePaths" : [
-    "Materials\/GridMaterial.usda"
+    "Materials\/GridMaterial.usda",
+    "ClamScene.usda",
+    "FishScene.usda",
+    "SlugScene.usda",
+    "StarfishScene.usda"
   ],
   "recentIdentifiers" : {
     "26DBAE76-5DD8-47B6-A085-1B4ADA111097" : [
@@ -78,6 +82,103 @@
           1
         ]
       }
+    ],
+    "A49AC9DF-8853-49B4-BE69-CA7A5F321B0B" : [
+      {
+        "date" : 736375803.519392,
+        "title" : "Untitled",
+        "transform" : [
+          0.99999994,
+          0,
+          -0,
+          0,
+          -0,
+          0.8660254,
+          -0.49999988,
+          0,
+          0,
+          0.49999988,
+          0.8660254,
+          0,
+          0,
+          0.20714667,
+          0.3587886,
+          1
+        ]
+      }
+    ],
+    "A49570C6-551D-4739-B459-CA260A09CAB2" : [
+      {
+        "date" : 736375778.163742,
+        "title" : "Untitled",
+        "transform" : [
+          0.99999994,
+          0,
+          -0,
+          0,
+          -0,
+          0.8660254,
+          -0.49999988,
+          0,
+          0,
+          0.49999988,
+          0.8660254,
+          0,
+          0,
+          0.20714667,
+          0.3587886,
+          1
+        ]
+      }
+    ],
+    "BFBA464E-FE3B-43B6-A7F9-4B6C73C0B803" : [
+      {
+        "date" : 736375744.99253,
+        "title" : "Untitled",
+        "transform" : [
+          0.99999994,
+          0,
+          -0,
+          0,
+          -0,
+          0.8660254,
+          -0.49999988,
+          0,
+          0,
+          0.49999988,
+          0.8660254,
+          0,
+          0,
+          0.20714667,
+          0.3587886,
+          1
+        ]
+      }
+    ],
+    "C9D08C43-0F07-4FA2-AC34-6F84A00FFA6E" : [
+      {
+        "date" : 736375827.590163,
+        "title" : "Untitled",
+        "transform" : [
+          0.99999994,
+          0,
+          -0,
+          0,
+          -0,
+          0.8660254,
+          -0.49999988,
+          0,
+          0,
+          0.49999988,
+          0.8660254,
+          0,
+          0,
+          0.20714667,
+          0.3587886,
+          1
+        ]
+      }
     ]
-  }
+  },
+  "selectedSceneRelativePath" : "StarfishScene.usda"
 }
