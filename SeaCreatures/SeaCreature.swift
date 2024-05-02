@@ -9,6 +9,6 @@ import Foundation
 
 struct SeaCreature: Identifiable {
     var name: String
-    var nodelName: String
+    var modelName: String
     var id = UUID()
 }

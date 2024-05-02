@@ -10,13 +10,15 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
+    
+    @Environment(\.openWindow) private var openWindow
     @State private var selectedCreature: SeaCreature?
     
     private var seaCreatures = [
-            SeaCreature(name: "Clam", nodelName: "ClamScene"),
-            SeaCreature(name: "Fish", nodelName: "FishScene"),
-            SeaCreature(name: "Slug", nodelName: "SlugScene"),
-            SeaCreature(name: "Starfish", nodelName: "StarfishScene")
+            SeaCreature(name: "Clam", modelName: "ClamScene"),
+            SeaCreature(name: "Fish", modelName: "FishScene"),
+            SeaCreature(name: "Slug", modelName: "SlugScene"),
+            SeaCreature(name: "Starfish", modelName: "StarfishScene")
     ]
     
     var body: some View {
@@ -32,11 +34,11 @@ struct ContentView: View {
             .navigationTitle("Sea Creatures")
         } detail: {
             if let selectedCreature {
-                Model3D(named: selectedCreature.nodelName, bundle: realityKitContentBundle)
+                Model3D(named: selectedCreature.modelName, bundle: realityKitContentBundle)
                     .navigationTitle(selectedCreature.name)
                     .toolbar {
                         Button {
-                            
+                            openWindow(id: "creatureWindow", value: selectedCreature.modelName)
                         } label: {
                             Text("View \(selectedCreature.name)")
                         }
